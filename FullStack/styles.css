@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+   
+}                                    
+
+h1{
+     border: 2px solid blue;
+}
+
+ table, td{
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+th{
+    padding: 15px;
+    border: 2px dotted;
+    border-radius: 20px;
+}
+
+.Username{
+    border-radius: 20px;
+    border: none;
+}
+
+div[class="man"] {
+    color: red;
+}

@@ -1,0 +1,52 @@
+.container {
+border: 5px solid #ffcc5c;
+display: flex;
+height: 100%;
+align-items: center;
+flex-direction: column;
+justify-content: center; 
+}
+
+.container > .home {
+    align-self: flex-start;
+}
+
+.container > .search {
+    align-self: center;
+}
+
+.container > .logout {
+    align-self: flex-end;
+} 
+
+
+.home{
+    background-color: rgb(33, 204, 255);
+    border-radius: 3px;
+    padding: 10px;
+    
+    
+}
+
+.search{
+    background-color: rgb(33, 255, 202);
+    border-radius: 3px;
+    padding: 10px;
+    
+}
+
+.logout{
+    background-color: rgb(255, 56, 33);
+    border-radius: 3px;
+    padding: 10px;
+ 
+}
+
+
+html, body{
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: blueviolet;
+    height: 100%;
+}
+

@@ -1,0 +1,41 @@
+body {
+  background-color: #000000;
+  padding: 0px 80px 0px 80px;
+}
+
+h1 {
+  color: aqua;
+  text-align: center;
+}
+
+p {
+  color: rgb(48, 255, 255);
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+h3 {
+  color: orangered;
+  text-align: center;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.card {
+  background-color: rgb(29, 19, 19);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 365px;
+  transition: 0.8s;
+}
+
+.card:hover {
+  background: transparent;
+  border: 2px solid gray;
+  transform: scale(1.1);
+}

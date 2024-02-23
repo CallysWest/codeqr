@@ -1,0 +1,59 @@
+h1{
+    border:40px;
+    border-style: groove;
+    color:red;
+}
+p{
+    color: aqua;
+}
+h2{
+    color: blueviolet;
+}
+body{
+    background-color: palegoldenrod;
+}
+
+table,td,th{
+    border:2px solid rgb(165, 86, 86);
+    width: 400px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    color: blue;
+}
+.outline{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    outline: 4px dashed chartreuse;
+    border: 12px solid red;
+    outline-style: double;
+    outline-width: 10px;
+    outline-color: black;
+}
+li{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin-left: 40px;
+}
+#fixed{
+    background:grey;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 150px;
+    position: fixed;
+}
+
+.absolute{
+    width: 400px;
+    height: 200px;
+    border: 2px solid;
+    position:absolute
+}

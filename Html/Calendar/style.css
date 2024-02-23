@@ -1,0 +1,33 @@
+body{
+    margin: 150px;
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  blue;
+}
+th{
+    background:rgb(83, 226, 83);
+    height: 50px;
+    width: 500px;
+    color: rgb(29, 155, 138);
+    text-align: center;  
+}
+td{
+    height: 60px;
+    width: 500px;
+    color: blue;
+    text-align: center;
+}
+tr:nth-child(odd){
+    background: rgb(125, 110, 161);
+    
+}
+
+
+
+    
+
+
+
+

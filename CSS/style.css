@@ -1,0 +1,59 @@
+body{
+    background-color: aqua;
+   font-family: "Poltawski Nowy", sans-serif;
+    font-weight: 800;
+}
+
+a:link{
+    color: pink;
+
+}
+
+a:visited{
+    color: green;
+
+}
+
+h1{
+    font-family: Tahoma;
+    
+}
+
+.wrap{
+    display: flex;
+    margin-right: 2%;
+    gap: 20px;
+    
+   
+}
+
+div .p{
+ border: 3px solid blue;
+  padding: 20px;
+}
+
+@media (max-width:600px){
+    .wrap{
+        flex-direction: column;
+        background-color: brown;
+         height: 50vh;
+    background-image: url(image/spider\ baby.jpg);
+    background-size: cover;
+    }
+}
+
+.p:hover{
+    transition: .3s;
+    color: red;
+    transform: scale(1.1);
+    background-color: azure;
+     /* background: transparent;
+  border: 2px solid gray;
+  transform: scale(1.1); */
+    
+}
+
+.cos{
+    height: 70vh;
+    background-image: url(image/spider\ baby.jpg);
+}

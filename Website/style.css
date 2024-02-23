@@ -1,0 +1,70 @@
+html, body{
+ background-color:black;
+ color: bisque;
+}
+
+.weststyle{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.logo{
+    color: orangered;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+ .search{ 
+    display: flex;
+    background-color: orangered;
+     border-radius: 10px;
+     border: 2px;
+
+ }
+
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position:relative;
+
+}
+/*  */
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 19px 15px;
+    border: 2px solid aqua;
+    border-radius: 30px;
+    
+}
+
+.newslatter form input:last-child{
+   position: absolute;
+   display: inline-block;
+   outline: none;
+   border: 2px solid transparent;
+   padding: 10px 30px;
+   background-color: aqua;
+   border-radius: 30px;
+   color: white;
+   box-shadow: 0px 0px 5px rgb(22, 24, 189),0px 0px 15px #858585;
+   top: 6px;
+   right: 6px;
+   transition: .4s;
+   
+   
+}
+.section_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info{
+    width:calc(50%-10px)
+}
+.form{
+    width: calc(50%-10px);
+
+  background-color: aqua;
+}

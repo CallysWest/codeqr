@@ -1,0 +1,58 @@
+body{
+    font-family: Castoro Titling;
+    background-color: rgb(12, 150, 63);
+    font-weight: bold;
+    color: rgb(16, 23, 22);
+}
+
+h2{
+  font-family: Poltawski Nowy;
+}
+
+#basketball{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+    float: right;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+
+.images img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.images:after{
+content: "";
+width: 350px;
+}
+
+#basketball:hover{
+    transition: 0.3s;
+    height: 250px;
+    width: 500px;
+}
+
+/* .images:hover{
+     transition: 0.3s;
+    height: 250px;
+    width: 500px;
+} */
+
+/* lets write some code */

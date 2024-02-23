@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  max-width: 1180%;
+  background-image: url(./images/bugatti-la-voiture-noire.webp);
+  background-size: cover;
+  
+}
+
+.logo {
+  float: left;
+  padding: 50px;
+  font-family: "Sigmar", cursive;
+  color: orangered;
+  font-weight: bolder;
+  font-size: larger;
+  flex: 1;
+}
+
+.contact {
+  margin-right: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 10px;
+  height: 100%;
+}
+
+.container,
+div {
+  margin-left: auto;
+}
+
+.container > div > a {
+  font-size: small;
+  font-weight: bolder;
+  color: rgb(24, 206, 219);
+  font-family: "Castoro Titling", sans-serif;
+  text-decoration: none;
+  margin: 5px;
+  flex: 1;
+}
+
+/* main */
+h1 {
+  display: flex;
+  justify-content: center;
+  color: bisque;
+  margin-top: 4em;
+  flex-wrap: nowrap;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+   flex-wrap: nowrap;
+   color: rgb(7, 172, 70);
+}
+
+/* hyperlink */
+.hyperlink {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-right: auto;
+}
+
+.start-here {
+  margin-right: 30px;
+}
+
+div > a {
+  font-size: small;
+  font-weight: bolder;
+  font-family: "Castoro Titling", sans-serif;
+  color: rgb(230, 4, 4);
+  text-decoration: none;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+div > a:hover {
+  transition: ease 1s;
+  background-color: chocolate;
+  color: beige;
+}
+
+.container > div > a:hover {
+  scale: 1.1;
+  transition: ease-in-out 1s;
+  background-color: aquamarine;
+  color: black;
+}

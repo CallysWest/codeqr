@@ -1,0 +1,65 @@
+a {
+ color: white;
+ text-decoration: none;
+}
+
+
+.play{
+  margin-top: 20px; 
+}
+
+h3{
+  color: red;
+  padding-top: 1em;
+}
+
+/* Main Game */
+h1 {
+  color: red;
+  text-align: center;
+  padding-top: 10%;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-image: url(./image/blackjack\ hands.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-color: red;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  overflow: hidden;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  width: 150px;
+  background-color: red;
+  color: aliceblue;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* @media screen and (min-width: 360px) {
+  button {
+    width: 40%;
+    font-size: 90%;
+    letter-spacing: 2px;
+   
+  }
+  h1 {
+    padding-top: 30%;
+  }
+} */

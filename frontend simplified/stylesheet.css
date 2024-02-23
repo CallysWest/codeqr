@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 414px) {
+    body {
+        background-color: aquamarine;
+
+    }
+
+    .border-box{
+        border: 2px solid red;
+        margin-right: 300px;
+        padding: 20px;
+    }
+
+}
+
+
+h1 {
+    font-family: roboto;
+    font-weight: 900;
+}
+
+.p {
+    width: 100%;
+    border: 1px solid red;
+    background-color: rgb(14, 116, 116, 1);
+}
+
+#home {
+    height: 50vh;
+    border: 2px solid black;
+}
+
+#info {
+    height: 50vh;
+    border: 2px solid black;
+}
+
+#footer {
+    height: 50vh;
+    border: 2px solid black;
+}
+
+/* .border-box{
+    border: 2px solid red;
+    margin-right: 300px;
+    padding: 20px;
+} */
+
+.hover {
+    animation: go 3000ms infinite alternate-reverse;
+    transition: all 300ms;
+}
+  
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+@keyframes go {
+    0% {
+ transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}
+

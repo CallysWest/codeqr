@@ -1,0 +1,31 @@
+html, body{
+    padding: 20px;
+    height: 100%;
+    background-color: blueviolet;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    border: 2px solid aqua;
+    
+}
+
+.container, div{
+height: 100%;
+margin: auto;
+
+}
+
+.home{
+flex: 1;
+}
+
+.about{
+flex: 1;
+}
+
+.search{
+flex: 1;
+}

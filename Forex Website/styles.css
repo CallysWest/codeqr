@@ -1,0 +1,402 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+nav {
+  text-align: center;
+  background-color: #070704;
+  justify-content: space-between;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+  font-weight: bold;
+  font-family: "Mate SC", serif;
+
+}
+nav ul li a {
+  color: #b59817;
+  text-decoration: none;
+  font-weight: bold;
+    text-align: center;
+}
+
+nav ul li a:hover {
+  color: #66ff00;
+  transition: ease-in-out 1s;
+}
+
+#nav-hr {
+  margin-top: -2px;
+  height: 5px;
+}
+
+#header-background {
+  background-image: url(./images/Golden\ Bull\ and\ Bear.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  margin-top: -20px;
+
+}
+
+#header-background h1 {
+  color: #b59817;
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Mate SC", serif;
+  letter-spacing: 2px;
+    padding: 5% 1%;
+}
+
+#West-span {
+  color: #66ff00;
+  font-size: 900;
+}
+
+#header-background p {
+  background: hsla(49, 100%, 48%, 1);
+
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(214, 181, 30) 0%,
+    rgb(177, 96, 53) 100%
+  );
+
+  padding: 15px 20px;
+  margin: 0 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 14.5px;
+  text-align: center;
+  box-shadow: 0 8px 16px #b59817;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px); /* Adjust the distance of the movement */
+  }
+}
+
+#header-background p:hover {
+  animation: moveUpDown 2s infinite;
+  /* color: rgb(29, 24, 24); */
+}
+
+.center-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.animated-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #b59817;
+  color: rgb(29, 24, 24);
+  border: 2px solid #f5e9b1;
+  border-radius: 6px;
+  box-shadow: 0 8px 16px #b59817;
+  transition: transform 0.3s;
+  font-family: "Mate SC", serif;
+  letter-spacing: 2px;
+}
+
+.animated-button:hover {
+  background-color: #66ff00;
+  box-shadow: 0 8px 16px #66ff00;
+  transform: translateY(10px);
+}
+
+.animated-button::after {
+  background-color: #b59817;
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#header-background #animated-text {
+  width: 100%;
+  margin-top: 5%;
+  animation: slideRightToLeft 15s linear infinite;
+}
+
+#ALL-span {
+  color: #66ff00;
+}
+
+#Services {
+  background-image: url(./images/koyoutoukei.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: -40%;
+  padding-bottom: 10%;
+}
+
+#Services h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Mate SC", serif;
+  letter-spacing: 2px;
+  color: #000000;
+  padding-top: 5%;
+  margin-top: 40%;
+  color: #000;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  #Services h1 {
+    color: #b59817;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card:hover {
+  background: #293625;
+  border: 2px solid gray;
+  /* transform: scale(1.1); */
+  transition: 1.1s;
+}
+
+.card i {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px;
+  color: #b59817;
+}
+
+h5 {
+  color: #f4c430;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.pra p {
+  color: #f0fff0;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+
+.card .button {
+  background-color: #b59817;
+  padding: 9px 22px;
+  border-radius: 30px;
+  font-weight: bold;
+  color: white;
+  border: 2px solid transparent;
+  transition: 0.4s;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card .button:hover {
+  background-color: transparent;
+  border: 2px solid #f4c430;
+  cursor: pointer;
+}
+
+.contact-me {
+  width: 100%;
+  height: 290px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#About {
+  background-image: url(./images/currrency.jpg);
+  margin-top: -25px;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 2%;
+  height: 5%;
+}
+
+#About h1 {
+  text-align: center;
+  padding-top: 5%;
+  font-family: "Mate SC", serif;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #000000;
+}
+
+#About p {
+  /* background: hsla(49, 100%, 48%, 1); */
+
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(177, 96, 53) 0%,
+    rgb(214, 181, 30) 100%
+  );
+
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding: 8% 8%;
+  font-family: "Playfair Display", serif;
+  font-size: 14.5px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgb(177, 96, 53);
+  border-radius: 20px;
+  font-weight: 900;
+  color: #000;
+  margin-bottom: 10%;
+}
+
+#about-hr {
+  z-index: 1;
+  height: 10px;
+}
+
+#Contact {
+  background-image: url(./images/world\ connect\ gold.webp);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin-top: -25px;
+}
+
+#Contact h1 {
+  text-align: center;
+  color: #000;
+  padding-top: 30px;
+  font-family: "Mate SC", serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+#Contact p {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+    background: -webkit-linear-gradient(
+    90deg,
+    rgb(214, 181, 30) 0%,
+    rgb(177, 96, 53) 100%
+  );
+  padding: 15px 20px;
+  margin: 0 5%;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  #Contact h1 {
+    color: #b59817;
+  }
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 15%;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(177, 96, 53) 0%,
+    rgb(214, 181, 30) 100%
+  );
+
+  padding: 15px;
+  border-radius: 10px;
+
+  /* padding: 2%; */
+}
+
+.inputs #name {
+  padding-top: 10px;
+  background-color: rgb(29, 24, 24);
+  color: aliceblue;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: "Playfair Display", serif;
+  border-radius: 10px;
+  border: none;
+  
+}
+
+.inputs #email{
+   padding-top: 10px;
+  background-color: rgb(29, 24, 24);
+  color: aliceblue;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: "Playfair Display", serif;
+  border-radius: 10px;
+  border: none;
+  margin-top: 5px;
+}
+
+.inputs #number{
+  margin-top: -13px;
+   padding-top: 10px;
+  background-color: rgb(29, 24, 24);
+  color: aliceblue;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: "Playfair Display", serif;
+  border-radius: 10px;
+  border: none;
+  
+}
+
+.inputs #bio{
+   padding-top: 10px;
+  background-color: rgb(29, 24, 24);
+  color: aliceblue;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: "Playfair Display", serif;
+  border-radius: 10px;
+  border: none;
+  margin-top: 5px;
+}

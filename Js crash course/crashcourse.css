@@ -1,0 +1,42 @@
+body{
+    background-color:#08824f ;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 75%;
+    color: rgb(255, 255, 255);
+    font-size: 230%;
+    transform: scale(1.0);
+}
+
+p{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    font-weight: 900;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+
+}
+
+button{
+    background-color: rgb(206, 216, 224);
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    margin-left: 40%;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(10, 10, 234);
+}

@@ -1,0 +1,96 @@
+#General {
+  display: flex;
+  margin-left: 34%;
+  margin-top: 10%;
+
+}
+
+.left-div {
+  background-color: #793fdf;
+  color: white;
+  width: 20%;
+  text-align: center;
+  /* border-radius: 20px; */
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 30px;
+  line-break: auto;
+  z-index: 1;
+}
+
+h1{
+    font-size: 400%;
+}
+
+h3{
+    font-size: 200%;
+}
+
+.right-div {
+  padding-left: 3%;
+  background-color: whitesmoke;
+  width: 20%;
+  border-radius: 20px;
+  /* border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  padding: 30px;
+  box-shadow: aqua;
+  z-index: 0;
+  
+}
+
+h2{
+    text-align: center;
+}
+
+#red {
+  background-color: lightsalmon;
+  color: red;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#yellow {
+  background-color: lightyellow;
+  color: orangered;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#aqua {
+    background-color: lightcyan;
+  color: aqua;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#dark-purple {
+  color: #52006a;
+  margin: 20px;
+  background-color: lightslategray;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(35, 57, 67);
+  color: white;
+  padding: 8px 50px;
+  margin-top: 20%;
+  margin-left: 15%;
+  border-radius: 20px;
+  border: none;
+}
+
+body {
+  background-color: black;
+}
